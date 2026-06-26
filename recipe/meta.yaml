@@ -1,4 +1,4 @@
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggchangepoint_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggchangepoint/ggchangepoint_{{ version }}.tar.gz
-  sha256: 90f32b2c1f11c362e2ea2c5c1a7af4ffd949fc895b79e0c434d6192a0c18f701
+  sha256: 5384b999102d5d5ec384686a6137acd5bcba4a92dd89ba363638eaba7f390283
 
 build:
   number: 0
